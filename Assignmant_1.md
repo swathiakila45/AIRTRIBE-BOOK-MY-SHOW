@@ -27,9 +27,9 @@ SAMPLE TABLES
 
 MOVIES 
 
-MOVIE_ID  MOVIE_NAME                CERTIFICATE
-1         Dasara                    UA
-2         Avatar: The Way of Water  UA
+MOVIE_ID | MOVIE_NAME              |  CERTIFICATE
+1        | Dasara                   | UA
+2        | Avatar: The Way of Water | UA
 
 
 THEATRES 
@@ -78,3 +78,4 @@ ORDER BY
 	
 
 		
+

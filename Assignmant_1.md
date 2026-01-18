@@ -61,6 +61,7 @@ SHOWS
 
 QUERY to list down all the shows on a given date at a given theatre along with their respective show timings.
 
+```sql
 SELECT 
     MOVIES.MOVIE_NAME, 
     THEATRES.THEATRE_NAME, 
@@ -78,10 +79,11 @@ WHERE
     AND THEATRES.THEATRE_NAME = 'PVR Nexus'
 ORDER BY 
     SHOWS.START_TIME ASC;
-
+```
 	
 
 		
+
 
 
 

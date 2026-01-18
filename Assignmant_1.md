@@ -35,25 +35,28 @@ MOVIES
 
 THEATRES 
 
-THEATRE_ID      THEATRE_NAME                    LOCATION
-101             PVR: Nexus (Formerly Forum)     "Koramangala, Bangalore"
-102             PVR: Vega City,                 "Bannerghatta Road, Bangalore"
+|	THEATRE_ID  |    THEATRE_NAME      			|   LOCATION						|
+| 	:--- 		| 		:--- 					|		 :--- 						|
+|	101         |   PVR: Nexus (Formerly Forum) |  "Koramangala, Bangalore"			|
+|	102         |   PVR: Vega City,             |  "Bannerghatta Road, Bangalore"	|
 
 
 SCREENS 
 
-SCREEN_ID       THEATRE_ID      SCREEN_NAME
-1               101             Audi 1
-2               101             Playhouse 4K
-3               102             Audi 1
-4               102             Gold Class
+|	SCREEN_ID   |   THEATRE_ID    |  SCREEN_NAME    |
+| 	:--- 		| 	:--- 		  |		 :--- 		|				|
+|	1           |    101          |   Audi 1		|
+|	2           |    101          |   Playhouse 4K	|
+|	3           |    102          |   Audi 1		|
+|	4           |    102          |   Gold Class	|
 
 
 SHOWS 
 
-SHOW_ID     MOVIE_ID    SCREEN_ID   SHOW_DATE   START_TIME  PRICE   LANGUAGE    FORMAT
-1001        1           1           2023-04-25  12:15:00    350.00  Telugu      2D
-1002        2           2           2023-04-25  01:20:00    450.00  English     3D
+|	SHOW_ID   |  MOVIE_ID  |  SCREEN_ID | SHOW_DATE  | START_TIME | PRICE  | LANGUAGE  |  FORMAT |
+| 	:--- 	  | :--- 	   |	:--- 	|	:--- 	 |	:--- 	  | :---   | :--- 	   | :---    |
+|	1001      |  1         | 	1       | 2023-04-25 | 12:15:00   | 350.00 | Telugu    |  2D		 |
+|	1002      |  2         |	2       | 2023-04-25 | 01:20:00   | 450.00 | English   |  3D		 |
 
 
 QUERY to list down all the shows on a given date at a given theatre along with their respective show timings.
@@ -79,5 +82,6 @@ ORDER BY
 	
 
 		
+
 
 

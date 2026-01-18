@@ -44,7 +44,7 @@ THEATRES
 SCREENS 
 
 |	SCREEN_ID   |   THEATRE_ID    |  SCREEN_NAME    |
-| 	:--- 		| 	:--- 		  |		 :--- 		|				|
+| 	:--- 		| 	:--- 		  |		 :--- 		|				
 |	1           |    101          |   Audi 1		|
 |	2           |    101          |   Playhouse 4K	|
 |	3           |    102          |   Audi 1		|
@@ -82,6 +82,7 @@ ORDER BY
 	
 
 		
+
 
 
 
